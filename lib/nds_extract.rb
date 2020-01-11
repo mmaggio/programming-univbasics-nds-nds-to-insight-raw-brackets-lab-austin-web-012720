@@ -25,7 +25,7 @@ require 'pp'
       end
       directors_name = nds[row_counter][:name]
       #this is the particular director's name for #this iteration of rows
-     director_grosses[:directors_name] = total_gross
+     director_grosses[directors_name] = total_gross
      #this adds a key value pair to the #directors_grosses hash of director and #that director's total gross
      row_counter += 1
   end
